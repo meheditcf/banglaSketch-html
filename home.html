@@ -6,13 +6,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>People</title>
+    <title>Home</title>
     <style>
+      .fnt {
+        font-family: 'Montserrat';
+      }
+      .fnts {
+        font-family: 'Montserrat';
+        color: white;
+      }
+      .fnts:hover {
+        background-color: greenyellow;
+        color: lightseagreen;
+}
+      a.nav-link {
+        color: white;
+      }
     </style>
 </head>
 <body style="background: #F8F9FA;">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #002651;;"> 
-        <img src="https://i.ibb.co/pxWS4D4/Screenshot-2020-11-01-133653-removebg-preview.png" alt="" class="navbar-brand" style="width: 200px;">
+      <div class="container">
+        <img src="https://i.ibb.co/VmJNyH3/Screenshot-2020-11-01-133653-removebg-preview.png" alt="" class="navbar-brand" style="width: 200px;">
         <!-- <a class="navbar-brand" href="#" >Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,24 +36,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link fnts" href="#" style="color: white; font-size: 18px;">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link fnts" href="#" style="color: white;">People</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fnts" href="#" style="color: white;">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fnts" href="#" style="color: white;">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fnts" href="#" style="color: white;">SuPara</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fnts" href="#" style="color: white;">Admin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fnts" href="#" style="color: white;">About Us</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
+
+      </div>
+
       </nav>
       <div class="bg"></div>
-      <img src="https://i.ibb.co/zPMsNyc/XOSS2.jpg" alt="" style="width: 100%;">
+      <img src="https://i.ibb.co/jbymxNB/banner-7831f279.jpg" alt="" style="width: 100%;">
 
 
     <!-- <p style="font-family: 'Montserrat'; font-size: 40px; font-weight: bolder; color: #3e4555; text-align: center; margin-top: 2%;">About Us</p> -->
@@ -47,7 +77,7 @@
         <div class="row">
 
             <div class="col-8">
-                <p style="font-family: 'Montserrat'; font-size: 30px; font-weight: bolder; color: #002651;">| About Us</p>
+                <p style="font-family: 'Montserrat'; font-size: 30px; font-weight: bolder; color: #22d1ee;">| About Us</p>
                 <p style="font-family: 'Montserrat'; font-size: 16px; font-weight: 700; color: #3e4555; margin-top: 20px; text-align: left;">The BanglaSketch Lab is dedicated to cutting-edge research on Bangla language processing. Established in 2010 by Professor Md. Abdullah Al Mumin, the lab explores research projects focused on enhancement of Bangla language into information and communication technology. <br> <br>
                     Current projects at the BanglaSketch Lab include: <br> </p>
                     <p style="font-family: 'Montserrat'; font-size: 16px; font-weight: 500; color: #3e4555; margin-top: 20px; text-align: left; text-transform: capitalize;">
@@ -66,22 +96,38 @@
             </div>
             <div class="col-4">
                 <ul class="list-group">
-                    <li class="list-group-item active" style="background-color: #002651;">RECENT NEWS</li>
-                    <li class="list-group-item">Two journal paper accepted to Elsevier’s Future Generation Computation System</li>
-                    <li class="list-group-item">One conference paper accepted to 8th ACM Conference on Data and Application Security and Privacy</li>
-                    <li class="list-group-item">A Paper from SECRETLab Accepted in IEEE SCC 2017</li>
+                    <li class="list-group-item active fnt" style="background-color: #002651;">RECENT NEWS</li>
+                    <li class="list-group-item fnt">Two journal paper accepted to Elsevier’s Future Generation Computation System</li>
+                    <li class="list-group-item fnt">One conference paper accepted to 8th ACM Conference on Data and Application Security and Privacy</li>
+                    <li class="list-group-item fnt">A Paper from SECRETLab Accepted in IEEE SCC 2017</li>
                   </ul> <br> <br>
 
                   <ul class="list-group">
-                    <li class="list-group-item active" style="background-color: #002651;">RESEARCH AREAS</li>
-                    <li class="list-group-item">Secure Identity</li>
-                    <li class="list-group-item">Cloud Forensics</li>
-                    <li class="list-group-item">Mobile Cloud</li>
+                    <li class="list-group-item active fnt" style="background-color: #002651;">RESEARCH AREAS</li>
+                    <li class="list-group-item fnt">Secure Identity</li>
+                    <li class="list-group-item fnt">Cloud Forensics</li>
+                    <li class="list-group-item fnt">Mobile Cloud</li>
                   </ul>
 
             </div>
         </div>
+        </div> <br> <br>
+        <div style="background: #002651;">
+          <div class="container">
+            <div class="row" style="padding-top: 15px;">
+              <div class="col">
+  <p style="color: white;" class="fnts">              Computer Science & Engineering, SUST</p>
+              </div>
+              <div class="col">
+  <p style="color: white;" class="fnts">              &copy; All rights reserved.</p>
+              </div>
+            </div>
+
+          </div>
+
+
         </div>
+
 
 
     
